@@ -1,8 +1,56 @@
-<h2>Your Cart</h2>
-{% for item in cart_items %}
-  <div>
-    <p>{{ item.product.product_name }} x{{ item.quantity }}</p>
-    <p>Total: ₹{{ item.total_price }}</p>
-  </div>
-{% endfor %}
-<h3>Total Amount: ₹{{ total }}</h3>
+{% extends "base.html" %}
+{% load static %}
+
+{% block start %}
+
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">🛒 Your Cart</h2>
+
+  {% if cart_items %}
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <table class="table table-bordered text-center">
+          <thead class="thead-dark">
+            <tr>
+              <th>Dish</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Update</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in cart_items %}
+              {% if item.id %}
+              <tr>
+                <td>{{ item.product.product_name }}</td>
+                <td>₹{{ item.product.product_price }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>₹{{ item.total_price }}</td>
+                <td>
+                  <form method="POST" action="{% url 'update_cart_quantity' item.id %}" style="display:inline;">
+                    {% csrf_token %}
+                    <div class="btn-group">
+                      <button type="submit" name="action" value="decrease" class="btn btn-danger btn-sm">−</button>
+                      <button type="submit" name="action" value="increase" class="btn btn-success btn-sm">+</button>
+                    </div>
+                  </form>
+                </td>
+              </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <div class="text-end mt-4">
+          <h4>🧾 Total Amount: <strong>₹{{ total }}</strong></h4>
+          <a href="#" class="btn btn-primary mt-2">Proceed to Checkout</a>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <p class="text-center text-muted">Your cart is empty. Start adding some delicious dishes!</p>
+  {% endif %}
+</div>
+
+{% endblock %}

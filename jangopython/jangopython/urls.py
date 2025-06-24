@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from django.urls import path, include
+from django.urls import include
 
 from django.contrib.auth import views as auth_views
 
@@ -20,7 +21,7 @@ urlpatterns = [
     path('login/', login_page, name="login"),  # ✅ matches what logout_page expects
     path('register/', register, name="register"),
     path('logout/', logout_page, name="logout_page"),
-    path('products/', include('products.urls')),
+    # path('products/', include('products.urls')),
     path('admin/', admin.site.urls),
     path('delete-receipe/<int:id>/', delete_receipe, name="delete_receipe"), 
     path('update-receipe/<int:id>/', update_receipe, name="update_receipe"), 

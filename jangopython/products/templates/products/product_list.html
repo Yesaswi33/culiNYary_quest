@@ -1,9 +1,61 @@
-<h2>Our Menu</h2>
-{% for product in products %}
-  <div>
-    <h3>{{ product.product_name }}</h3>
-    <p>{{ product.product_description }}</p>
-    <p>₹{{ product.product_price }}</p>
-    <a href="{% url 'product_detail' product.product_slug %}">View</a>
+{% extends "base.html" %}
+{% load static %}
+
+{% block start %}
+<div class="container mt-5">
+  <h2 class="text-center">🍽️ All Dishes – Order Now</h2>
+
+  <!-- 🌿 Menu Card Dishes -->
+  <h3 class="mt-4">🌿 Dishes from Menu Card</h3>
+  <div class="row">
+    {% for dish in receipes %}
+      <div class="col-md-4 mb-3">
+        <div class="card h-100 shadow-sm">
+          {% if dish.receipe_image %}
+            <img src="{{ dish.receipe_image.url }}" class="card-img-top" alt="{{ dish.receipe_name }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ dish.receipe_name }}</h5>
+            <p class="card-text">{{ dish.receipe_description|default:"No description available." }}</p>
+            <p><strong>₹{{ dish.receipe_price|default:"99.00" }}</strong></p>
+            <form method="POST" action="{% url 'add_custom_dish_to_cart' dish.id %}">
+              {% csrf_token %}
+              <div class="d-flex align-items-center">
+                <button type="submit" class="btn btn-outline-primary btn-sm">Add to Cart</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No dishes found.</p>
+    {% endfor %}
   </div>
-{% endfor %}
+
+  <!-- 📦 Featured Products -->
+  <hr class="my-5">
+  <h3 class="mt-4">📦 Featured Products</h3>
+  <div class="row">
+    {% for product in products %}
+      <div class="col-md-4 mb-3">
+        <div class="card h-100 shadow-sm">
+          {% if product.image.first %}
+            <img src="{{ product.image.first.product_images.url }}" class="card-img-top" alt="{{ product.product_name }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ product.product_name }}</h5>
+            <p class="card-text">{{ product.product_description }}</p>
+            <p><strong>₹{{ product.product_price }}</strong></p>
+            <form method="POST" action="{% url 'add_to_cart' product.uid %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-outline-success btn-sm">Add to Cart</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No products available.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
