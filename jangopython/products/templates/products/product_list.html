@@ -1,0 +1,9 @@
+<h2>Our Menu</h2>
+{% for product in products %}
+  <div>
+    <h3>{{ product.product_name }}</h3>
+    <p>{{ product.product_description }}</p>
+    <p>₹{{ product.product_price }}</p>
+    <a href="{% url 'product_detail' product.product_slug %}">View</a>
+  </div>
+{% endfor %}

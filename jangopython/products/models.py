@@ -1,5 +1,7 @@
 from django.db import models
 import uuid
+from django.contrib.auth.models import User
+
 # python manage.py makemigrations
 # Create your models here.
 # DRY => Do not repeat yourself
@@ -37,3 +39,19 @@ class productImages(BaseModel):
     product=models.ForeignKey(Product,on_delete=models.CASCADE,related_name="image")
     product_images=models.ImageField(upload_to="products")
     
+    
+class Cart(BaseModel):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    quantity = models.PositiveIntegerField(default=1)
+
+    def total_price(self):
+        return self.quantity * self.product.product_price
+
+
+
+class Order(BaseModel):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    cart_items = models.ManyToManyField(Cart)
+    total_amount = models.IntegerField()
+    status = models.CharField(max_length=20, default="Placed")
