@@ -1,0 +1,225 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block start %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>World Food Explorer - Dark Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <style>
+    body {
+      margin-top: 70px;
+      font-family: "Times New Roman", serif;
+      display: flex;
+      height: 100vh;
+      background-color: #121212;
+      color: #f1f1f1;
+      overflow: hidden;
+    }
+
+    #sidebar {
+      width: 400px;
+      background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+      border-right: 1px solid #444;
+      padding: 20px;
+      overflow-y: auto;
+      box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #map {
+      flex: 1;
+      filter: grayscale(10%) brightness(90%);
+    }
+
+    .filter-heading {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #f0f0f0;
+    }
+
+    .dish-entry {
+      padding: 15px;
+      margin-bottom: 15px;
+      background: #1c1c1c;
+      border-left: 5px solid #0d6efd;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      transform-style: preserve-3d;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      cursor: pointer;
+    }
+
+    .dish-entry:hover {
+      transform: scale(1.03) rotateX(3deg);
+      box-shadow: 0 12px 24px rgba(13, 110, 253, 0.35);
+      background-color: #252525;
+    }
+
+    .dish-entry h5 {
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+
+    .dish-entry p {
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    h2.section-title {
+      font-size: 20px;
+      color: #ffffff;
+      border-bottom: 2px solid #0d6efd;
+      margin-bottom: 12px;
+    }
+
+    .form-control,
+    .form-select {
+      background-color: #2c2c2c;
+      color: #f1f1f1;
+      border: 1px solid #555;
+    }
+
+    .form-control::placeholder {
+      color: #aaa;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+      border-color: #0d6efd;
+      box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sidebar">
+    <h2 class="text-primary mb-3">Explore Dishes and Cultures</h2>
+
+    <label class="filter-heading">Search Dish or Place</label>
+    <input type="text" id="search" class="form-control mb-3" placeholder="e.g., Sushi or Tokyo" />
+
+    <label class="filter-heading">Filter by Country</label>
+    <select id="countryFilter" class="form-select mb-4">
+      <option value="">All Countries</option>
+      <option value="">India</option>
+      <option value="">China</option>
+      <option value="">Japan</option>
+      <option value="">South Korea</option>
+      <option value="">Germany</option>
+      <option value="">Spain</option>
+      <option value="">Sweden</option>
+      <option value="">Switzerland</option>
+      <option value="">United States</option>
+      <option value="">Canada</option>
+      <option value="">Mexico</option>
+      <option value="">Cuba</option>
+      <option value="">Brazil</option>
+    </select>
+
+    <div id="dish-list"></div>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([20.0, 77.0], 3);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    let dishData = [];
+
+    function populateCountryFilter(data) {
+      const countryFilter = document.getElementById('countryFilter');
+      const countries = [...new Set(data.map(item => item.country || 'Unknown'))].sort();
+      countries.forEach(country => {
+        const option = document.createElement('option');
+        option.value = country;
+        option.textContent = country;
+        countryFilter.appendChild(option);
+      });
+    }
+
+    function displayDishList(filteredData) {
+      const dishList = document.getElementById('dish-list');
+      dishList.innerHTML = '';
+
+      const grouped = {};
+      filteredData.forEach(item => {
+        if (!grouped[item.place]) grouped[item.place] = [];
+        grouped[item.place].push(item);
+      });
+
+      for (const place in grouped) {
+        const section = document.createElement('div');
+        const title = document.createElement('h2');
+        title.textContent = place;
+        title.className = 'section-title';
+        section.appendChild(title);
+
+        grouped[place].forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'dish-entry';
+          div.innerHTML = `
+            <h5>${item.dish}</h5>
+            <p>${item.description.substring(0, 100)}...</p>
+          `;
+          div.onclick = () => {
+            map.setView(item.coordinates, 6);
+            L.popup()
+              .setLatLng(item.coordinates)
+              .setContent(`<h5>${item.dish} (${item.place})</h5><p style="max-width:300px;">${item.description}</p>`)
+              .openOn(map);
+          };
+          section.appendChild(div);
+        });
+
+        dishList.appendChild(section);
+      }
+    }
+
+    function filterDishes() {
+      const query = document.getElementById('search').value.toLowerCase();
+      const selectedCountry = document.getElementById('countryFilter').value;
+
+      const filtered = dishData.filter(item =>
+        (item.dish.toLowerCase().includes(query) ||
+         item.place.toLowerCase().includes(query)) &&
+        (selectedCountry === '' || item.country === selectedCountry)
+      );
+
+      displayDishList(filtered);
+    }
+
+    document.getElementById('search').addEventListener('input', filterDishes);
+    document.getElementById('countryFilter').addEventListener('change', filterDishes);
+
+    fetch("{% url 'get_dish_data' %}")
+      .then(response => response.json())
+      .then(data => {
+        dishData = data;
+        data.forEach(item => {
+          L.marker(item.coordinates).addTo(map).on('click', () => {
+            L.popup()
+              .setLatLng(item.coordinates)
+              .setContent(`<h5>${item.dish} (${item.place})</h5><p style="max-width:300px;">${item.description}</p>`)
+              .openOn(map);
+          });
+        });
+        populateCountryFilter(data);
+        displayDishList(data);
+      });
+  </script>
+</body>
+</html>
+{% endblock %}

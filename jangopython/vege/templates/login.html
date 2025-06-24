@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block start %}
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card-3d {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-3d:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-animated {
+    transition: all 0.3s ease;
+  }
+
+  .btn-animated:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<div class="container mt-5">
+  <!-- Login Form Card -->
+  <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+    <div class="card card-3d shadow-lg border-0">
+      <div class="card-body">
+        <h3 class="card-title text-center fw-bold">🔐 Login</h3>
+        <hr>
+
+        {% if messages %}
+        <div class="alert alert-primary" role="alert">
+          {% for message in messages %}
+            {{ message }}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <form method="post" novalidate>
+          {% csrf_token %}
+
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              name="username"
+              id="username"
+              required
+            >
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              name="password"
+              id="password"
+              required
+            >
+          </div>
+
+          <p class="text-center">
+            Don't have an account? <a href="/register/">Register</a>
+          </p>
+
+
+          <button type="submit" class="btn btn-dark w-100 py-2 fs-5 btn-animated">✔️ Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

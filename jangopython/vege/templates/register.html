@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block start %}
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card-3d {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-3d:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-animated {
+    transition: all 0.3s ease;
+  }
+
+  .btn-animated:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .table-hover tbody tr:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.01);
+  }
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+</style>
+
+<div class="container mt-5">
+  <!-- Register Form Card -->
+  <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+    <div class="card card-3d shadow-lg border-0">
+      <div class="card-body">
+        <h3 class="card-title text-center fw-bold">Register</h3>
+        <hr>
+
+        {%if messages%}
+
+        <div class="alert alert-primary" role="alert">
+            {% for message in messages%}
+            {{message}}
+            {%endfor%}
+        </div>
+        {%endif%}
+         
+
+        <!-- ✅ Fixed: Added form tag -->
+        <form method="post">
+          {% csrf_token %}
+          
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="first_name" id="firstName" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="last_name" id="lastName" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" name="username" id="username" required>
+            <div class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="password" required>
+          </div>
+
+          <p>Already have an account? <a href="/login/">Login</a></p>
+
+          <button type="submit" class="btn btn-dark w-100 btn-animated">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

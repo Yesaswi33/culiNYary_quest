@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block start %}
+{% load static %}
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    body {
+        margin-top:63px;
+        font-family: 'Times New Roman', serif;
+        background-color: #f8f9fa;
+    }
+
+    .hero-section {
+        background: url("https://images.unsplash.com/photo-1690983323310-3f8e55c9272f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMGJhbm5lcnxlbnwwfHwwfHx8MA%3D%3D") no-repeat center center/cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .hero-overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .explore-btn {
+        font-size: 1.5rem;
+        padding: 12px 30px;
+        border-radius: 50px;
+        background-color: #1e3d59;
+        color: #fff;
+        text-decoration: none !important;
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .explore-btn:hover {
+        background-color: #162c42;
+        transform: perspective(600px) scale(1.05) rotateX(4deg);
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content text-white">
+
+        <h1 class="hero-title">Welcome</h1>
+        <p class="hero-subtitle">Discover authentic dishes and cultural flavors from every corner of the world.</p>
+        <a href="{% url 'index' %}" class="explore-btn">Explore Map</a>
+        <a href="{% url 'menu-card' %}" class="explore-btn">View Menu Card</a>
+
+    </div>
+</div>
+
+{% endblock %}
+

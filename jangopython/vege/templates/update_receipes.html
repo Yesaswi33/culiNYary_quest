@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block start %}
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card-3d {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-3d:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-animated {
+    transition: all 0.3s ease;
+  }
+  .btn-animated:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-label {
+    font-weight: 600;
+  }
+</style>
+
+<div class="container mt-5">
+
+  <!-- Update Recipe Form Card -->
+  <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+    <div class="card card-3d shadow-lg border-0">
+      <div class="card-body">
+        <h3 class="card-title text-center fw-bold">Update Recipe</h3>
+        <hr>
+
+        <form method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+          {% csrf_token %}
+
+          <div class="mb-3">
+            <label for="receipe_name" class="form-label">Recipe Name</label>
+            <input name="receipe_name" value="{{ receipes.receipe_name }}" required type="text"
+              class="form-control form-control-lg" id="receipe_name" placeholder="e.g. Butter Chicken">
+          </div>
+
+          <div class="mb-3">
+            <label for="receipe_description" class="form-label">Description</label>
+            <textarea class="form-control form-control-lg" name="receipe_description" required id="receipe_description"
+              placeholder="Write a short description..." rows="3">{{ receipes.receipe_description }}</textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="receipe_price" class="form-label">Price (₹)</label>
+            <input name="receipe_price" value="{{ receipes.receipe_price }}" required type="number" step="0.01"
+              class="form-control form-control-lg" id="receipe_price" placeholder="e.g. 199.99">
+          </div>
+
+          <div class="mb-3">
+            <label for="receipe_image" class="form-label">Image (Choose only if updating)</label>
+            <input name="receipe_image" type="file" class="form-control form-control-lg" id="receipe_image">
+          </div>
+
+          {% if receipes.receipe_image %}
+          <div class="text-center mb-3">
+            <img src="{{ receipes.receipe_image.url }}" class="img-fluid rounded shadow-sm"
+              style="max-height: 200px; max-width: 250px;" alt="Current Image">
+          </div>
+          {% endif %}
+
+          <button type="submit" class="btn btn-dark w-100 py-2 fs-5 btn-animated">Update Recipe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

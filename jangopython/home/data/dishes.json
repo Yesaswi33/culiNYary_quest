@@ -1,0 +1,1264 @@
+[
+  {"place":"Kakinada, Andhra Pradesh","dish":"Kakinada Kaja","description":"A traditional sweet with layered dough soaked in sugar syrup.","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kakinada_Kaja.jpg/800px-Kakinada_Kaja.jpg","coordinates":[16.945,82.238]},
+  {"place":"Itanagar, Arunachal Pradesh","dish":"Apong (rice beer)","description":"Traditional fermented rice beer, central to tribal festivities.","image":"","coordinates":[27.0844,93.6053]},
+  {"place":"Guwahati, Assam","dish":"Masor Tenga","description":"Tangy fish curry with tomatoes or citrus, light and refreshing.","image":"(see carousel above)","coordinates":[26.1445,91.7362]},
+  {"place":"Patna, Bihar","dish":"Litti Chokha","description":"Wheat balls stuffed with sattu, served with mashed vegetables.","image":"https://upload.wikimedia.org/wikipedia/commons/f/fc/Litti_Chokha.jpg","coordinates":[25.5941,85.1376]},
+  {"place":"Raipur, Chhattisgarh","dish":"Dehrori","description":"Sweet fried rice dumplings soaked in sugar syrup.","image":"","coordinates":[21.2514,81.6296]},
+  {"place":"Panaji, Goa","dish":"Pork Sorpotel","description":"Spicy Goan pork stew of Portuguese origin.","image":"","coordinates":[15.4909,73.8278]},
+  {"place":"Ahmedabad, Gujarat","dish":"Dhokla","description":"Steamed savory cake from fermented chickpea‑rice batter.","image":"https://upload.wikimedia.org/wikipedia/commons/7/7c/Khaman_Dhokla.jpg","coordinates":[23.0225,72.5714]},
+  {"place":"Chandigarh, Chandigarh","dish":"Butter Chicken","description":"Creamy tomato‑butter gravy chicken, world famous.","image":"","coordinates":[30.7333,76.7794]},
+  {"place":"Shimla, Himachal Pradesh","dish":"Chana Madra","description":"Chickpeas cooked in yogurt‑based gravy with spices.","image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Chana_Madra.jpg","coordinates":[31.1048,77.1734]},
+  {"place":"Ranchi, Jharkhand","dish":"Thekua","description":"Sweet wheat‑jaggery deep‑fried snack.","image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Thekua_Bihar_Jharkhand.jpg","coordinates":[23.3441,85.3096]},
+  {"place":"Bengaluru, Karnataka","dish":"Bisi Bele Bath","description":"Spicy rice–lentil–vegetable dish from Mysore cuisine.","image":"","coordinates":[12.9716,77.5946]},
+  {"place":"Kochi, Kerala","dish":"Ishtu","description":"Meat or veg stew in mild coconut‑milk sauce.","image":"","coordinates":[9.9312,76.2673]},
+  {"place":"Bhopal, Madhya Pradesh","dish":"Bhutte Ka Kees","description":"Grated corn cooked with spices and milk—street‑food favorite.","image":"","coordinates":[23.2599,77.4126]},
+  {"place":"Mumbai, Maharashtra","dish":"Vada Pav","description":"Spicy potato‑filled fritter in a bun—Mumbai’s signature snack.","image":"https://upload.wikimedia.org/wikipedia/commons/8/89/Vada_Pav_from_Mumbai.jpg","coordinates":[19.0760,72.8777]},
+  {"place":"Imphal, Manipur","dish":"Kangshoi","description":"Light vegetable stew sometimes with fish or meat.","image":"","coordinates":[24.8170,93.9368]},
+  {"place":"Shillong, Meghalaya","dish":"Jadoh","description":"Red rice cooked with pork, a Khasi specialty.","image":"","coordinates":[25.5788,91.8933]},
+  {"place":"Aizawl, Mizoram","dish":"Sawhchiar","description":"Mizo meat–rice stew with local spices.","image":"","coordinates":[23.7271,92.7176]},
+  {"place":"Kohima, Nagaland","dish":"Smoked Pork with Bamboo Shoot","description":"Traditional Naga pork curry with fermented bamboo.","image":"https://upload.wikimedia.org/wikipedia/commons/8/8d/Naga_smoked_pork.jpg","coordinates":[25.6751,94.1086]},
+  {"place":"Bhubaneswar, Odisha","dish":"Dahi Pakhala","description":"Fermented rice with curd, served chilled with sides.","image":"https://upload.wikimedia.org/wikipedia/commons/1/1b/Pakhala_Bhata.jpg","coordinates":[20.2961,85.8245]},
+  {"place":"Amritsar, Punjab","dish":"Amritsari Kulcha","description":"Stuffed flatbread baked in a tandoor, served with chole.","image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Amritsari_Kulcha.jpg","coordinates":[31.634,74.8723]},
+  {"place":"Jaipur, Rajasthan","dish":"Dal Baati Churma","description":"Lentil curry with baked wheat balls and sweet crumb.","image":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Dal_Baati_Churma.jpg","coordinates":[26.9124,75.7873]},
+  {"place":"Gangtok, Sikkim","dish":"Thenthuk","description":"Hand‑pulled noodle soup from Tibetan‑influenced cuisine.","image":"","coordinates":[27.3314,88.6138]},
+  {"place":"Chennai, Tamil Nadu","dish":"Dosa","description":"Crispy fermented rice‑lentil pancake with sambar & chutney.","image":"","coordinates":[13.0827,80.2707]},
+  {"place":"Hyderabad, Telangana","dish":"Hyderabadi Biryani","description":"Aromatic basmati rice dish cooked with marinated meat & spices.","image":"https://upload.wikimedia.org/wikipedia/commons/6/64/Hyderabadi_Biryani.jpg","coordinates":[17.385,78.4867]},
+  {"place":"Agartala, Tripura","dish":"Awan Bangwi","description":"Rice cake with pork, cashew, raisins and herbs.","image":"","coordinates":[23.8315,91.2868]},
+  {"place":"Lucknow, Uttar Pradesh","dish":"Tunday Kababi","description":"Awadhi galouti kebabs with ~160 spices.","image":"","coordinates":[26.8467,80.9462]},
+  {"place":"Dehradun, Uttarakhand","dish":"Bal Mithai","description":"Roasted-milk fudge with sugar-coated balls.","image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Chana_Madra.jpg","coordinates":[30.3165,78.0322]},
+  {"place":"Kolkata, West Bengal","dish":"Kathi Roll","description":"Paratha rolled with spiced fillings like chicken, mutton, or paneer.","image":"https://upload.wikimedia.org/wikipedia/commons/4/48/Kolkata_Kathi_Roll.jpg","coordinates":[22.5726,88.3639]},
+  {"place":"Srinagar, Jammu & Kashmir","dish":"Goshtaba","description":"Meatballs in rich yogurt‑based gravy.","image":"","coordinates":[34.0837,74.7973]},
+  {"place":"Leh, Ladakh","dish":"Thukpa","description":"Hearty noodle soup with vegetables or meat.","image":"","coordinates":[34.1526,77.5770]},
+  {"place":"Port Blair, Andaman & Nicobar Islands","dish":"Seafood Curry","description":"Local fish/crab curry in coconut‑based gravy.","image":"","coordinates":[11.6234,92.7265]},
+  {
+    "place": "Vijayawada, Andhra Pradesh",
+    "dish": "Chepala Pulusu",
+    "description": "Tangy fish curry cooked in tamarind sauce, popular in coastal Andhra.",
+    "image": "",
+    "coordinates": [16.5062,80.6480]
+  },
+  {
+    "place": "Tirupati, Andhra Pradesh",
+    "dish": "Pulihora",
+    "description": "Tamarind rice seasoned with peanuts and spices, temple-town favorite.",
+    "image": "",
+    "coordinates": [13.6288,79.4192]
+  },
+  {
+    "place": "Hyderabad, Telangana",
+    "dish": "Mirchi ka Salan",
+    "description": "Green chillies cooked in a spicy, tangy sesame-tamarind gravy.",
+    "image": "",
+    "coordinates": [17.3850,78.4867]
+  },
+  {
+    "place": "Warangal, Telangana",
+    "dish": "Kodi Kura",
+    "description": "Hyderabadi-style chicken curry, richly spiced and aromatic.",
+    "image": "",
+    "coordinates": [17.9689,79.5941]
+  },
+  {
+    "place": "Amritsar, Punjab",
+    "dish": "Amritsari Machhi",
+    "description": "Crispy fried fish marinated in carom-spiced gram flour batter.",
+    "image": "",
+    "coordinates": [31.6340,74.8723]
+  },
+  {
+    "place": "Ludhiana, Punjab",
+    "dish": "Butter Chicken",
+    "description": "Creamy tomato-based chicken curry, Punjabi comfort food.",
+    "image": "",
+    "coordinates": [30.9010,75.8573]
+  },
+  {
+    "place": "Indore, Madhya Pradesh",
+    "dish": "Kachori Sabzi",
+    "description": "Deep-fried lentil-filled pastry served with spicy potato curry.",
+    "image": "",
+    "coordinates": [22.7196,75.8577]
+  },
+  {
+    "place": "Bhopal, Madhya Pradesh",
+    "dish": "Bhutte ka Kees",
+    "description": "Grated corn sautéed with milk and spices—a street-food staple.",
+    "image": "",
+    "coordinates": [23.2599,77.4126]
+  },
+  {
+    "place": "Guwahati, Assam",
+    "dish": "Masor Tenga",
+    "description": "Light, tangy fish curry with tomatoes or citrus.",
+    "image": "",
+    "coordinates": [26.1445,91.7362]
+  },
+  {
+    "place": "Jorhat, Assam",
+    "dish": "Khar with Papaya Khar",
+    "description": "Unique Assamese alkaline curry made with raw papaya.",
+    "image": "",
+    "coordinates": [26.7463,94.2026]
+  },
+  {
+    "place": "Mumbai, Maharashtra",
+    "dish": "Vada Pav",
+    "description": "Spicy potato fritter in a bun with chutneys.",
+    "image": "",
+    "coordinates": [19.0760,72.8777]
+  },
+  {
+    "place": "Pune, Maharashtra",
+    "dish": "Misal Pav",
+    "description": "Spicy sprouted bean curry served with pav and farsan.",
+    "image": "",
+    "coordinates": [18.5204,73.8567]
+  },
+  {
+    "place": "Kolkata, West Bengal",
+    "dish": "Jhalmuri",
+    "description": "Spicy puffed rice snack with mustard oil, onions, and peanuts.",
+    "image": "",
+    "coordinates": [22.5726,88.3639]
+  },
+  {
+    "place": "Darjeeling, West Bengal",
+    "dish": "Momos",
+    "description": "Dumplings filled with veg or meat, served with chutney.",
+    "image": "",
+    "coordinates": [27.0360,88.2627]
+  },
+  {"place":"Pondicherry, Puducherry","dish":"Pongal","description":"Creamy rice‑lentil porridge seasoned with pepper, cumin, ginger and curry leaves—comfort breakfast.","image":"","coordinates":[11.9416,79.8083]},
+  {
+    "place": "Dispur, Assam",
+    "dish": "Ou Tenga",
+    "description": "A tangy curry made with elephant apple and fish—typical Assamese flavor.",
+    "image": "",
+    "coordinates": [26.1365,91.7920]
+  },
+  {
+    "place": "Udaipur, Rajasthan",
+    "dish": "Laal Maas",
+    "description": "Fiery red meat curry made with mathania chilies and garlic.",
+    "image": "",
+    "coordinates": [24.5854,73.7125]
+  },
+  {
+    "place": "Guntur, Andhra Pradesh",
+    "dish": "Gongura Pachadi",
+    "description": "Spicy chutney made from sorrel leaves, a tangy Andhra specialty.",
+    "image": "",
+    "coordinates": [16.3067,80.4365]
+  },
+  {
+    "place": "Madurai, Tamil Nadu",
+    "dish": "Jigarthanda",
+    "description": "A cold milk-based dessert drink with almond gum and sarsaparilla syrup.",
+    "image": "",
+    "coordinates": [9.9252,78.1198]
+  },
+  {
+    "place": "Mysuru, Karnataka",
+    "dish": "Mysore Pak",
+    "description": "Rich ghee-soaked sweet made from gram flour and sugar.",
+    "image": "",
+    "coordinates": [12.2958,76.6394]
+  },
+  {
+    "place": "Thiruvananthapuram, Kerala",
+    "dish": "Avial",
+    "description": "Mixed vegetable dish with coconut and yogurt, essential in Kerala Sadya.",
+    "image": "",
+    "coordinates": [8.5241,76.9366]
+  },
+  {
+    "place": "Jamshedpur, Jharkhand",
+    "dish": "Chilka Roti",
+    "description": "Savory rice-lentil pancake, often eaten with tomato chutney or sabzi.",
+    "image": "",
+    "coordinates": [22.8046,86.2029]
+  },
+  {
+    "place": "Nashik, Maharashtra",
+    "dish": "Sabudana Khichdi",
+    "description": "Tapioca pearls stir-fried with peanuts and potatoes, a fasting delicacy.",
+    "image": "",
+    "coordinates": [19.9975,73.7898]
+  },
+  {
+    "place": "Panipat, Haryana",
+    "dish": "Besan Masala Roti",
+    "description": "Spiced gram flour flatbread, traditional Haryanvi meal staple.",
+    "image": "",
+    "coordinates": [29.3909,76.9635]
+  },
+  {
+    "place": "Faridabad, Haryana",
+    "dish": "Bajra Khichdi",
+    "description": "Nutritious millet-based dish cooked with moong dal.",
+    "image": "",
+    "coordinates": [28.4089,77.3178]
+  },
+  {
+    "place": "Gandhinagar, Gujarat",
+    "dish": "Handvo",
+    "description": "Savory baked lentil–rice cake with spices and sesame.",
+    "image": "",
+    "coordinates": [23.2156,72.6369]
+  },
+  {
+    "place": "Bilaspur, Chhattisgarh",
+    "dish": "Chana Samosa",
+    "description": "Samosas served with spicy black chana curry—a local street food.",
+    "image": "",
+    "coordinates": [22.0796,82.1391]
+  },
+  {
+    "place": "Amarkantak, Madhya Pradesh",
+    "dish": "Sabudana Vada",
+    "description": "Crispy tapioca and potato fritters, eaten during fasts.",
+    "image": "",
+    "coordinates": [22.6740,81.7492]
+  },
+  {
+    "place": "Puri, Odisha",
+    "dish": "Khicede",
+    "description": "Temple-style moong dal khichdi, offered in Jagannath temple.",
+    "image": "",
+    "coordinates": [19.8135,85.8312]
+  },
+  {
+    "place": "Rameswaram, Tamil Nadu",
+    "dish": "Sundakkai Kuzhambu",
+    "description": "Tangy tamarind curry with turkey berries, unique to southern Tamil cuisine.",
+    "image": "",
+    "coordinates": [9.2876,79.3129]
+  },
+  {
+    "place": "Tinsukia, Assam",
+    "dish": "Pitika",
+    "description": "Mashed spiced vegetables like potato or eggplant served as a side.",
+    "image": "",
+    "coordinates": [27.4922,95.3537]
+  },
+  {
+    "place": "Cherrapunji, Meghalaya",
+    "dish": "Dohneiiong",
+    "description": "Pork cooked with sesame seeds—an authentic Khasi preparation.",
+    "image": "",
+    "coordinates": [25.2843,91.7196]
+  },
+  {
+    "place": "Sasaram, Bihar",
+    "dish": "Khaja",
+    "description": "Crispy multi-layered sweet made of flour and ghee.",
+    "image": "",
+    "coordinates": [24.9476,84.0287]
+  },
+  {
+    "place": "Dharamshala, Himachal Pradesh",
+    "dish": "Siddu",
+    "description": "Steamed wheat buns stuffed with spices and dry fruits.",
+    "image": "",
+    "coordinates": [32.2190,76.3234]
+  },
+  {
+    "place": "Rewa, Madhya Pradesh",
+    "dish": "Poha Jalebi",
+    "description": "Flattened rice with sev and jalebi combo—Rewa’s typical breakfast.",
+    "image": "",
+    "coordinates": [24.5300,81.3000]
+  },
+  {
+    "place": "Montgomery, Alabama",
+    "dish": "Chicken with White Barbecue Sauce",
+    "description": "Smoked or grilled chicken served with Alabama’s signature mayo‑vinegar ‘white sauce’—invented in Decatur in 1925.",
+    "image": "",
+    "coordinates": [32.3792, -86.3077]
+  },
+  {
+    "place": "Juneau, Alaska",
+    "dish": "King Crab",
+    "description": "Fresh Bering Sea king crab, served as legs, bisque or crab cakes—a seafood lover’s delight.",
+    "image": "",
+    "coordinates": [58.3019, -134.4197]
+  },
+  {
+    "place": "Tucson, Arizona",
+    "dish": "Chimichanga",
+    "description": "Deep‑fried burrito filled with meat and beans, crispy and cheesy—originated in Tucson in the 1950s.",
+    "image": "",
+    "coordinates": [32.2226, -110.9747]
+  },
+  {
+    "place": "Little Rock, Arkansas",
+    "dish": "Fried Pickles",
+    "description": "Crispy, tangy dill pickle chips deep‑fried to golden perfection—a state fair favorite.",
+    "image": "",
+    "coordinates": [34.7465, -92.2896]
+  },
+  {
+    "place": "Denver, Colorado",
+    "dish": "Green Chili Cheese Fries",
+    "description": "Fries smothered in pork or green chili sauce and melted cheese—Colorado comfort food.",
+    "image": "",
+    "coordinates": [39.7392, -104.9903]
+  },
+  {
+    "place": "Wilmington, Delaware",
+    "dish": "Vinegar Fries",
+    "description": "Hand‑cut fries sprinkled with tangy malt vinegar—Delaware’s iconic boardwalk snack.",
+    "image": "",
+    "coordinates": [39.7391, -75.5398]
+  },
+  {
+    "place": "Jacksonville, Florida",
+    "dish": "Cuban Sandwich",
+    "description": "Toasted ham, roasted pork, Swiss, pickles and mustard pressed into crisp Cuban bread.",
+    "image": "",
+    "coordinates": [30.3322, -81.6557]
+  },
+  {
+    "place": "Savannah, Georgia",
+    "dish": "Boiled Peanuts",
+    "description": "Soft green peanuts boiled with salt—sold at roadside stands all summer long.",
+    "image": "",
+    "coordinates": [32.0809, -81.0912]
+  },
+  {
+    "place": "Honolulu, Hawaii",
+    "dish": "Spam Musubi",
+    "description": "Sliced Spam on rice, wrapped in nori—Hawai‘i’s iconic grab‑and‑go snack.",
+    "image": "",
+    "coordinates": [21.3069, -157.8583]
+  },
+  {
+    "place": "Phoenix, Arizona",
+    "dish": "Sonoran Hot Dog",
+    "description": "Bacon‑wrapped frankfurter on bolillo bun with pinto beans, onions, tomato, mustard & mayo.",
+    "image": "",
+    "coordinates": [33.4484, -112.0740]
+  },
+  {
+    "place": "Cincinnati, Ohio",
+    "dish": "Cincinnati Chili",
+    "description": "Spiced meat sauce with cinnamon and chocolate, served over spaghetti, topped with cheese.",
+    "image": "",
+    "coordinates": [39.1031, -84.5120]
+  },
+  {
+    "place": "Sioux Falls, South Dakota",
+    "dish": "Chislic",
+    "description": "Skewers of deep‑fried cubes of lamb, mutton or beef—served hot with garlic salt.",
+    "image": "",
+    "coordinates": [43.5446, -96.7311]
+  },
+  {
+    "place": "Anchorage, Alaska",
+    "dish": "King Crab",
+    "description": "Fresh Bering Sea king crab legs, served steamed or in bisque—Alaska’s premium seafood delicacy.",
+    "image": "",
+    "coordinates": [61.2181, -149.9003]
+  },
+  {
+    "place": "Phoenix, Arizona",
+    "dish": "Chimichanga",
+    "description": "Deep‑fried burrito filled with chicken or beef, cheese, beans—invented at Tucson’s El Charro Café in the 1950s.",
+    "image": "",
+    "coordinates": [33.4484, -112.0740]
+  },
+  {
+    "place": "Little Rock, Arkansas",
+    "dish": "Fried Pickles",
+    "description": "Breaded dill pickle slices, deep‑fried until golden—Arkansas fair staple since the 1960s.",
+    "image": "",
+    "coordinates": [34.7465, -92.2896]
+  },
+  {
+    "place": "Los Angeles, California",
+    "dish": "French Dip Sandwich",
+    "description": "Roast beef sandwich on a dip‑served roll, invented in L.A.—tender, juicy, and savory.",
+    "image": "",
+    "coordinates": [34.0522, -118.2437]
+  },
+  {
+    "place": "Denver, Colorado",
+    "dish": "Green Chili Cheese Fries",
+    "description": "Hand‑cut fries topped with pork green chili and melted cheese—a local comfort food favorite.",
+    "image": "",
+    "coordinates": [39.7392, -104.9903]
+  },
+  {
+    "place": "Hartford, Connecticut",
+    "dish": "New Haven‑Style Clam Pie",
+    "description": "Thin, crisp pizza topped with fresh clams, garlic, olive oil—classic Apizza tradition.",
+    "image": "",
+    "coordinates": [41.7658, -72.6734]
+  },
+  {
+    "place": "Wilmington, Delaware",
+    "dish": "Vinegar Fries",
+    "description": "Crispy fries sprinkled with malt vinegar—iconic boardwalk snack in Delaware.",
+    "image": "",
+    "coordinates": [39.7391, -75.5398]
+  },
+  {
+    "place": "Tallahassee, Florida",
+    "dish": "Cuban Sandwich",
+    "description": "Pressed sandwich with roast pork, ham, Swiss cheese, pickles and mustard—mainstay in South Florida.",
+    "image": "",
+    "coordinates": [30.4383, -84.2807]
+  },
+  {
+    "place": "Atlanta, Georgia",
+    "dish": "Boiled Peanuts",
+    "description": "Fresh green peanuts boiled in salted water—popular roadside snack during summer.",
+    "image": "",
+    "coordinates": [33.7490, -84.3880]
+  },
+  {
+    "place": "Honolulu, Hawaii",
+    "dish": "Spam Musubi",
+    "description": "Grilled Spam atop sushi rice, wrapped in nori—Hawai‘i’s beloved portable snack.",
+    "image": "",
+    "coordinates": [21.3069, -157.8583]
+  },
+  {
+    "place": "Boise, Idaho",
+    "dish": "Finger Steaks",
+    "description": "Tender steak strips battered and deep‑fried—Idaho’s casual bar‑food specialty.",
+    "image": "",
+    "coordinates": [43.6150, -116.2023]
+  },
+  {
+    "place": "Springfield, Illinois",
+    "dish": "Italian Beef Sandwich",
+    "description": "Thinly sliced beef soaked in au jus, served on Italian bread with giardiniera or sweet peppers.",
+    "image": "",
+    "coordinates": [39.7817, -89.6501]
+  },
+  {
+    "place": "Indianapolis, Indiana",
+    "dish": "Pork Tenderloin Sandwich",
+    "description": "Breaded and deep‑fried pork cutlet sandwich—sprawling beyond the bun’s edges!",
+    "image": "",
+    "coordinates": [39.7684, -86.1581]
+  },
+  {
+    "place": "Des Moines, Iowa",
+    "dish": "Fried Pork Tenderloin Sandwich",
+    "description": "Big breaded pork cutlet on a bun—Iowa’s signature midday treat.",
+    "image": "",
+    "coordinates": [41.5868, -93.6250]
+  },
+  {
+    "place": "Topeka, Kansas",
+    "dish": "Chicken Fried Steak",
+    "description": "Beef steak breaded, fried and topped with creamy country gravy—a comfort food favorite.",
+    "image": "",
+    "coordinates": [39.0558, -95.6890]
+  },
+  {
+    "place": "Louisville, Kentucky",
+    "dish": "Hot Brown",
+    "description": "Open‑faced turkey sandwich smothered in Mornay sauce and topped with bacon and tomato.",
+    "image": "",
+    "coordinates":[38.2527, -85.7585]
+  },
+  {
+    "place": "New Orleans, Louisiana",
+    "dish": "Gumbo",
+    "description": "Rich Creole stew thickened with roux, with seafood, chicken, sausage and okra—served over rice.",
+    "image": "",
+    "coordinates": [29.9511, -90.0715]
+  },
+  {
+    "place": "Portland, Maine",
+    "dish": "Lobster Roll",
+    "description": "Chunks of lobster lightly dressed and served in a buttery toasted roll—a Maine seafood staple.",
+    "image": "",
+    "coordinates": [43.6591, -70.2568]
+  },
+  {
+    "place": "Baltimore, Maryland",
+    "dish": "Crab Feast",
+    "description": "Blue crabs steamed and seasoned with Old Bay—served tableside in paper bags.",
+    "image": "",
+    "coordinates": [39.2904, -76.6122]
+  },
+  {
+    "place": "Boston, Massachusetts",
+    "dish": "Clam Chowder",
+    "description": "Creamy New England–style clam and potato soup—rich comfort in a bowl.",
+    "image": "",
+    "coordinates": [42.3601, -71.0589]
+  },
+  {
+    "place": "Detroit, Michigan",
+    "dish": "Detroit‑Style Pizza",
+    "description": "Square deep‑dish pizza with crispy cheese‑edged crust and sauce on top.",
+    "image": "",
+    "coordinates": [42.3314, -83.0458]
+  },
+  {
+    "place": "Minneapolis, Minnesota",
+    "dish": "Lutefisk",
+    "description": "Dry‑cured whitefish treated with lye, a traditional Scandinavian‑American holiday dish.",
+    "image": "",
+    "coordinates": [44.9778, -93.2650]
+  },
+  {
+    "place": "Jackson, Mississippi",
+    "dish": "Chicken and Dumplings",
+    "description": "Tender chicken stew with soft biscuit‑like dumplings—a soul‑food classic.",
+    "image": "",
+    "coordinates": [32.2988, -90.1848]
+  },
+  {
+    "place": "St. Louis, Missouri",
+    "dish": "St. Louis‑Style BBQ Ribs",
+    "description": "Pork ribs trimmed, grilled and slathered in sweet tomato‑based sauce.",
+    "image": "",
+    "coordinates": [38.6270, -90.1994]
+  },
+  {
+    "place": "Billings, Montana",
+    "dish": "Huckleberry Cobbler",
+    "description": "Warm berry dessert featuring foraged huckleberries from Montana forests.",
+    "image": "",
+    "coordinates": [45.7833, -108.5007]
+  },
+  {
+    "place": "Omaha, Nebraska",
+    "dish": "Runza",
+    "description": "Yeast‑based bread pocket filled with beef, cabbage and onion—a Nebraska comfort food.",
+    "image": "",
+    "coordinates": [41.2565, -95.9345]
+  },
+  {
+    "place": "Las Vegas, Nevada",
+    "dish": "Shrimp Cocktail",
+    "description": "Chilled shrimp served with zesty cocktail sauce—a classic Vegas lounge staple.",
+    "image": "",
+    "coordinates": [36.1699, -115.1398]
+  },
+  {
+    "place": "Quebec City, Canada",
+    "dish": "Tourtière du Lac-Saint-Jean",
+    "description": "Deep‑dish meat pie with pork, potatoes and warming spices, a Québec holiday classic.",
+    "image": "",
+    "coordinates": [46.8139, -71.2080]
+  },
+  {
+    "place": "Toronto, Canada",
+    "dish": "Peameal Bacon Sandwich",
+    "description": "Corn‑meal‑crusted pork loin in a bun with mustard—a Toronto breakfast staple.",
+    "image": "",
+    "coordinates": [43.6532, -79.3832]
+  },
+  {
+    "place": "Winnipeg, Canada",
+    "dish": "Schmoo Torte",
+    "description": "Fluffy angel‑food cake layered with caramel‑brown‑sugar buttercream and nuts.",
+    "image": "",
+    "coordinates": [49.8951, -97.1384]
+  },
+  {
+    "place": "Ottawa, Canada",
+    "dish": "BeaverTail",
+    "description": "Hand‑stretched fried dough topped with cinnamon‑sugar or chocolate—a winter carnival favorite.",
+    "image": "",
+    "coordinates": [45.4215, -75.6972]
+  },
+  {
+    "place": "Sydney, Australia",
+    "dish": "Sydney Rock Oysters",
+    "description": "Briny, tender oysters from NSW coast—served fresh with lemon or mignonette.",
+    "image": "",
+    "coordinates": [-33.8688, 151.2093]
+  },
+  {
+    "place": "Adelaide, Australia",
+    "dish": "Pie Floater",
+    "description": "Meat pie floating in thick pea soup, a true South Australian icon :contentReference[oaicite:1]{index=1}.",
+    "image": "",
+    "coordinates": [-34.9285, 138.6007]
+  },
+  {
+    "place": "Brisbane, Australia",
+    "dish": "Lamington",
+    "description": "Sponge cake cubes dipped in chocolate, rolled in coconut—Australia’s official cake :contentReference[oaicite:2]{index=2}.",
+    "image": "",
+    "coordinates": [-27.4698, 153.0251]
+  },
+  {
+    "place": "Canberra, Australia",
+    "dish": "Chicken Parmigiana",
+    "description": "Flattened schnitzel topped with tomato sauce, cheese and ham—pub classic nationwide :contentReference[oaicite:3]{index=3}.",
+    "image": "",
+    "coordinates": [-35.2809, 149.1300]
+  },
+  {
+    "place": "London, UK",
+    "dish": "Mince and Tatties",
+    "description": "Scottish‑style minced beef with mashed potato and root veg—comfort food at its best :contentReference[oaicite:4]{index=4}.",
+    "image": "",
+    "coordinates": [51.5074, -0.1278]
+  },
+  {
+    "place": "Penzance, Cornwall, UK",
+    "dish": "Cornish Pasty",
+    "description": "Hand‑crimped pastry filled with beef, potato, swede and onion—a miner’s lunch :contentReference[oaicite:5]{index=5}.",
+    "image": "",
+    "coordinates": [50.1180, -5.5370]
+  },
+  {
+    "place": "Stirling, Scotland, UK",
+    "dish": "Haggis",
+    "description": "Sheep’s pluck minced with oats, spices and onion, encased and traditionally served with neeps & tatties :contentReference[oaicite:6]{index=6}.",
+    "image": "",
+    "coordinates": [56.1165, -3.9369]
+  },
+  {
+    "place": "Cardiff, Wales, UK",
+    "dish": "Welsh Rarebit",
+    "description": "Creamy melted cheese and beer sauce over toast—preferred pub grub in Wales :contentReference[oaicite:7]{index=7}.",
+    "image": "",
+    "coordinates": [51.4816, -3.1791]
+  },
+  {
+    "place": "Dublin, Ireland",
+    "dish": "Colcannon",
+    "description": "Mashed potatoes with kale or cabbage—traditional Irish side dish for St. Patrick’s Day :contentReference[oaicite:8]{index=8}.",
+    "image": "",
+    "coordinates": [53.3498, -6.2603]
+  },
+  {
+    "place": "Salvador, Bahia",
+    "dish": "Moqueca Baiana",
+    "description": "Rich seafood stew with fish or shrimp simmered in coconut milk, palm oil (dendê), peppers, onions & coriander—served with rice and pirão.",
+    "image": "",
+    "coordinates": [-12.9777, -38.5016]
+  },
+  {
+    "place": "Vitória, Espírito Santo",
+    "dish": "Moqueca Capixaba",
+    "description": "Lighter version of moqueca using olive oil, annatto and fish cooked in a glazed clay pot—served with pirão.",
+    "image": "",
+    "coordinates": [-20.3155, -40.3128]
+  },
+  {
+    "place": "Rio de Janeiro, Rio de Janeiro",
+    "dish": "Feijoada",
+    "description": "National black-bean stew cooked with pork and sausages; served with rice, sautéed collard greens, farofa & orange slices.",
+    "image": "",
+    "coordinates": [-22.9068, -43.1729]
+  },
+  {
+    "place": "Recife, Pernambuco",
+    "dish": "Tapioca",
+    "description": "Cassava-flour crepe filled with sweet coconut or savory cheese—crispy at the edges, soft inside.",
+    "image": "",
+    "coordinates": [-8.0476, -34.8770]
+  },
+  {
+    "place": "Fortaleza, Ceará",
+    "dish": "Baião de Dois",
+    "description": "Hearty blend of rice & beans cooked with queijo coalho, dried meat and herbs—a staple of Ceará’s sertão cuisine.",
+    "image": "",
+    "coordinates": [-3.7319, -38.5267]
+  },
+  {
+    "place": "São Paulo, São Paulo",
+    "dish": "Virado à Paulista",
+    "description": "Rice and creamy bean mash served with pork chop, fried banana, kale & fried egg—a classic Paulista meal.",
+    "image": "",
+    "coordinates": [-23.5505, -46.6333]
+  },
+  {
+    "place": "Goiânia, Goiás",
+    "dish": "Arroz com Pequi",
+    "description": "Rice cooked with pequi fruit, garlic and onion—fragrant and slightly oily, common in Goiás.",
+    "image": "",
+    "coordinates": [-16.6869, -49.2648]
+  },
+  {
+    "place": "Belo Horizonte, Minas Gerais",
+    "dish": "Pão de Queijo",
+    "description": "Mini cheese buns made from tapioca and Queijo Minas—crispy outside, chewy & cheesy inside.",
+    "image": "",
+    "coordinates": [-19.9167, -43.9345]
+  },
+  {
+    "place": "Rio Grande, Rio Grande do Sul",
+    "dish": "Churrasco (Picanha)",
+    "description": "Skewered prime rump‑cap (picanha) seasoned with coarse salt and grilled over open flame—gaucho staple.",
+    "image": "",
+    "coordinates": [-32.0358, -52.0984]
+  },
+  {
+    "place": "Caxias do Sul, Rio Grande do Sul",
+    "dish": "Sagu de Vinho",
+    "description": "Tapioca pearls cooked in red wine with cloves & cinnamon, served warm or cold with crème anglaise.",
+    "image": "",
+    "coordinates": [-29.1689, -51.1797]
+  },
+  {
+    "place": "Belém, Pará",
+    "dish": "Pato no Tucupi",
+    "description": "Duck cooked in yellow tucupi sauce (fermented manioc), flavored with jambu herb—Amazonian classic.",
+    "image": "",
+    "coordinates": [-1.4558, -48.4902]
+  },
+  {
+    "place": "Salvador, Bahia",
+    "dish": "Acarajé",
+    "description": "Deep‑fried black‑eyed pea fritter stuffed with vatapá, caruru and shrimp—Afro‑Brazilian street icon.",
+    "image": "",
+    "coordinates": [-12.9777, -38.5016]
+  },
+  {
+    "place": "Maceió, Alagoas",
+    "dish": "Sururu",
+    "description": "Seasoned green mussels cooked in coconut milk, tomatoes and peppers—coastal seafood favorite.",
+    "image": "",
+    "coordinates": [-9.6120, -35.7925]
+  },
+  {
+    "place": "Natal, Rio Grande do Norte",
+    "dish": "Paçoca de Pilão",
+    "description": "Stotched dried beef mixed with cassava flour, garlic & onion—crumbly and savory staple.",
+    "image": "",
+    "coordinates": [-5.7945, -35.2110]
+  },
+  {
+    "place": "Paranaguá, Paraná",
+    "dish": "Barreado",
+    "description": "Clay‑pot beef stew sealed with manioc flour, slow‑cooked until ultra‑tender—served with rice & banana.",
+    "image": "",
+    "coordinates": [-25.5165, -48.5202]
+  },
+  {
+    "place": "Manaus, Amazonas",
+    "dish": "Tacacá",
+    "description": "Hot broth of tucupi, jambu, dried shrimp and goma (manioc starch)—Amazonian street soup.",
+    "image": "",
+    "coordinates": [-3.1019, -60.0250]
+  },
+  {
+    "place": "Moscow, Central Russia",
+    "dish": "Borscht",
+    "description": "Hearty beet soup with beef, cabbage, potatoes and sour cream—Russia’s iconic comfort food.",
+    "image": "",
+    "coordinates": [55.7558, 37.6173]
+  },
+  {
+    "place": "Saint Petersburg, Northwestern Russia",
+    "dish": "Solyanka",
+    "description": "Thick, sour soup made with assorted meats, pickles, olives, cabbage and lemon—a hangover cure.",
+    "image": "",
+    "coordinates": [59.9343, 30.3351]
+  },
+  {
+    "place": "Ufa, Bashkortostan (Volga)",
+    "dish": "Echpochmak",
+    "description": "Triangular pastry filled with meat, potato and onion—served with broth or tea, a Tatar staple.",
+    "image": "",
+    "coordinates": [54.7388, 55.9721]
+  },
+  {
+    "place": "Yakutsk, Yakutia (Siberia)",
+    "dish": "Stroganina",
+    "description": "Thin slices of frozen raw fish (omul or muksun), lightly salted—an Arctic specialty.",
+    "image": "",
+    "coordinates": [62.0355, 129.6755]
+  },
+  {
+    "place": "Kazan, Tatarstan (Volga)",
+    "dish": "Qistibi",
+    "description": "Roasted unleavened flatbread folded over mashed potato filling—comforting Tatar dish.",
+    "image": "",
+    "coordinates": [55.8304, 49.0661]
+  },
+  {
+    "place": "Simferopol, Crimea",
+    "dish": "Chebureki",
+    "description": "Deep-fried crescent turnovers stuffed with minced meat and onions—a popular street snack.",
+    "image": "",
+    "coordinates": [44.9521, 34.1024]
+  },
+  {
+    "place": "Yekaterinburg, Urals",
+    "dish": "Pelmeni",
+    "description": "Meat-filled dumplings in thin dough, served with sour cream or in broth—a Ural classic.",
+    "image": "",
+    "coordinates": [56.8389, 60.6057]
+  },
+  {
+    "place": "Perm, Perm Krai (Urals)",
+    "dish": "Posikunchiki",
+    "description": "Small fried meat pastries—mini chebureki popular in the northern Urals.",
+    "image": "",
+    "coordinates": [58.0090, 56.2540]
+  },
+  {
+    "place": "Vladikavkaz, North Ossetia",
+    "dish": "Ossetian Pies",
+    "description": "Round flatbreads with fillings like cheese, potato, or beet—sacred Ossetian specialty.",
+    "image": "",
+    "coordinates": [43.0300, 44.6676]
+  },
+  {
+    "place": "Makhachkala, Dagestan (Caucasus)",
+    "dish": "Khinkal",
+    "description": "Boiled dough pieces served with lamb broth—a communal Caucasian dish.",
+    "image": "",
+    "coordinates": [42.9849, 47.5047]
+  },
+  {
+    "place": "Ulan-Ude, Buryatia (Siberia)",
+    "dish": "Buuzy",
+    "description": "Steamed meat dumplings (similar to manti), steamed in special pots—Buryat specialty.",
+    "image": "",
+    "coordinates": [51.8333, 107.5833]
+  },
+  {
+    "place": "Oryol, Central Russia",
+    "dish": "Ukha",
+    "description": "Clear fish soup made with local river fish, vegetables and herbs—a Russian classic.",
+    "image": "",
+    "coordinates": [52.9676, 36.0686]
+  },
+  {
+    "place": "Vologda, Northwestern Russia",
+    "dish": "Vologda Butter",
+    "description": "Rich, creamy butter with a slight nutty taste—celebrated dairy from the Vologda region.",
+    "image": "",
+    "coordinates": [59.2187, 39.8886]
+  },
+  {
+    "place": "Omsk, Western Siberia",
+    "dish": "Shangi",
+    "description": "Savory buns topped with mashed potato or kasha, brushed with butter—a Ural/Siberian comfort food.",
+    "image": "",
+    "coordinates": [54.9924, 73.3686]
+  },
+  {
+    "place": "Novosibirsk, Siberia",
+    "dish": "Okroshka",
+    "description": "Cold summer soup of kvass (or kefir) with chopped veggies, meat, egg and dill—light and refreshing.",
+    "image": "",
+    "coordinates": [55.0084, 82.9357]
+  },
+  {
+    "place": "Beijing, Northern China",
+    "dish": "Peking Duck",
+    "description": "Crispy-skinned roasted duck served with thin pancakes, scallions, cucumbers and sweet bean sauce—China’s imperial classic.",
+    "image": "",
+    "coordinates": [39.9042, 116.4074]
+  },
+  {
+    "place": "Chengdu, Sichuan",
+    "dish": "Mapo Tofu",
+    "description": "Silken tofu in a spicy, numbing sauce of chili, bean paste, garlic and Sichuan peppercorns—a fiery comfort food.",
+    "image": "",
+    "coordinates": [30.5728, 104.0668]
+  },
+  {
+    "place": "Chengdu, Sichuan",
+    "dish": "Mala Hotpot",
+    "description": "Communal spicy hotpot broth loaded with chilies and Sichuan peppercorns; cook meat and veggies at the table.",
+    "image": "",
+    "coordinates": [30.5728, 104.0668]
+  },
+  {
+    "place": "Guangzhou, Guangdong",
+    "dish": "Dim Sum (e.g., Har Gow, Char Siu Bao)",
+    "description": "Assorted bite-sized dishes served with tea—steamed shrimp dumplings, pork buns, shumai—perfect brunch tradition.",
+    "image": "",
+    "coordinates": [23.1291, 113.2644]
+  },
+  {
+    "place": "Shanghai, Jiangsu",
+    "dish": "Xiaolongbao",
+    "description": "Steamed soup dumplings filled with rich pork broth—must-taste delicacy in Shanghainese cuisine.",
+    "image": "",
+    "coordinates": [31.2304, 121.4737]
+  },
+  {
+    "place": "Hangzhou, Zhejiang",
+    "dish": "Beggar’s Chicken",
+    "description": "Whole chicken marinated, wrapped in lotus leaves & clay, then baked—legendary dish of Hangzhou :contentReference[oaicite:1]{index=1}.",
+    "image": "",
+    "coordinates": [30.2741, 120.1551]
+  },
+  {
+    "place": "Hangzhou, Zhejiang",
+    "dish": "West Lake Fish in Vinegar Gravy",
+    "description": "Fresh fish lightly fried then coated in sweet-sour vinegar sauce—delicate Zhejiang flavors.",
+    "image": "",
+    "coordinates": [30.2741, 120.1551]
+  },
+  {
+    "place": "Nanjing, Jiangsu",
+    "dish": "Salted Duck",
+    "description": "Tender, lightly salted duck, a specialty of Nanjing often served cold or in halves :contentReference[oaicite:2]{index=2}.",
+    "image": "",
+    "coordinates": [32.0603, 118.7969]
+  },
+  {
+    "place": "Kunming, Yunnan",
+    "dish": "Crossing‑the‑Bridge Noodles",
+    "description": "Hot chicken broth served with separate rice noodles, meats, and veggies to add yourself :contentReference[oaicite:3]{index=3}.",
+    "image": "",
+    "coordinates": [25.0389, 102.7183]
+  },
+  {
+    "place": "Changsha, Hunan",
+    "dish": "Steamed Fish Head with Diced Chili",
+    "description": "Fish head steamed under a mound of spicy diced chilies—bold, smoky Hunan heat :contentReference[oaicite:4]{index=4}.",
+    "image": "",
+    "coordinates": [28.2282, 112.9388]
+  },
+  {
+    "place": "Fuzhou, Fujian",
+    "dish": "Buddha Jumps Over the Wall",
+    "description": "Luxurious soup with abalone, sea cucumber, shark’s fin and more—Fujian’s most prized dish :contentReference[oaicite:5]{index=5}.",
+    "image": "",
+    "coordinates": [26.0745, 119.2965]
+  },
+  {
+    "place": "Qingdao, Shandong",
+    "dish": "Sweet and Sour Carp",
+    "description": "Whole carp deep-fried and coated in tangy sweet-sour sauce—a Shandong hallmark :contentReference[oaicite:6]{index=6}.",
+    "image": "",
+    "coordinates": [36.0671, 120.3826]
+  },
+  {
+    "place": "Lanzhou, Gansu",
+    "dish": "Lanzhou Beef Noodles",
+    "description": "Hand-pulled noodles served in clear spiced beef broth with cilantro and chili oil.",
+    "image": "",
+    "coordinates": [36.0611, 103.8343]
+  },
+  {
+    "place": "Taiyuan, Shanxi",
+    "dish": "Shanxi Noodles with Vinegar",
+    "description": "Wheat noodles served in tangy, aromatic Shanxi mature vinegar-based sauce.",
+    "image": "",
+    "coordinates": [37.8706, 112.5489]
+  },
+  {
+    "place": "Lhasa, Tibet",
+    "dish": "Yak Butter Tea",
+    "description": "Salty, creamy tea made with yak butter and salt—traditional Tibetan warm beverage :contentReference[oaicite:7]{index=7}.",
+    "image": "",
+    "coordinates": [29.6520, 91.1721]
+  },
+  {
+    "place": "Kuching, Sarawak",
+    "dish": "Sarawak Laksa",
+    "description": "Spicy coconut‑and‑shrimp broth with rice vermicelli, topped with prawns, chicken, omelette strips & fresh herbs—a breakfast staple praised by Bourdain.",
+    "image": "",
+    "coordinates": [1.5533, 110.3592]
+  },
+  {
+    "place": "Kuching, Sarawak",
+    "dish": "Kolo Mee",
+    "description": "Dry tossed egg noodles with char siu pork, shallots & light soy—simple yet flavorful Sarawak specialty.",
+    "image": "",
+    "coordinates": [1.5533, 110.3592]
+  },
+  {
+    "place": "Kuching, Sarawak",
+    "dish": "Manok Pansuh",
+    "description": "Iban-style chicken cooked in bamboo with tapioca leaves, lemongrass & spices—smoky, fragrant and ceremonial.",
+    "image": "",
+    "coordinates": [1.5533, 110.3592]
+  },
+  {
+    "place": "Kuching, Sarawak",
+    "dish": "Ambuyat",
+    "description": "Starchy sago gum eaten by twirling with bamboo fork and dipping into sour‑spicy sauces—a Brunei/Sarawak staple.",
+    "image": "",
+    "coordinates": [1.5533, 110.3592]
+  },
+  {
+    "place": "Kota Kinabalu, Sabah",
+    "dish": "Hinava Sada",
+    "description": "Kadazan‑Dusun ceviche of sliced mackerel with lime juice, ginger, chilli & bambangan—refreshing harvest‑festival starter.",
+    "image": "",
+    "coordinates": [5.9804, 116.0735]
+  },
+  {
+    "place": "Kota Kinabalu, Sabah",
+    "dish": "Linopot",
+    "description": "Rice packed in leaves (turmeric or tarap), steamed to absorb fragrance—a traditional Kadazan‑Dusun staple.",
+    "image": "",
+    "coordinates": [5.9804, 116.0735]
+  },
+  {
+    "place": "Kota Kinabalu, Sabah",
+    "dish": "Pinasakan",
+    "description": "Ikan basung slow‑braised with turmeric, ginger, lemongrass and asam keping—sour, spicy and preservative style.",
+    "image": "",
+    "coordinates": [5.9804, 116.0735]
+  },
+  {
+    "place": "Kota Kinabalu, Sabah",
+    "dish": "Lihing",
+    "description": "Traditional Kadazan rice wine made from glutinous rice—slightly sweet, often used in cooking and desserts.",
+    "image": "",
+    "coordinates": [5.9804, 116.0735]
+  },
+  {
+    "place": "Kuching, Sarawak",
+    "dish": "Kuih Jala",
+    "description": "Crispy net‑like snack made from rice flour batter—delicate, sweet or savory kuih from Borneo.",
+    "image": "",
+    "coordinates": [1.5533, 110.3592]
+  },
+  {
+    "place": "Sarawak (various)",
+    "dish": "Tebaloi (Sago Biscuit)",
+    "description": "Fragrant crunchy sago cookies, often flavoured with coconut or pandan—popular Sarawak souvenir.",
+    "image": "",
+    "coordinates": [1.4480, 110.3091]
+  },
+  {
+    "place": "West Kalimantan, Indonesia (Borneo)",
+    "dish": "Beef Rendang",
+    "description": "Spicy slow‑cooked beef in coconut gravy and rich spices—a key Indo‑Bornean specialty.",
+    "image": "",
+    "coordinates": [-0.0226, 109.3466]
+  },
+  {
+    "place": "Banjarmasin, Kalimantan, Indonesia",
+    "dish": "Soto Banjar",
+    "description": "Aromatic chicken‑and‑spice clear broth soup with rice cakes & eggs—signature Kalimantan breakfast.",
+    "image": "",
+    "coordinates": [-3.3169, 114.5901]
+  },
+  {
+    "place": "Brunei",
+    "dish": "Ambuyat",
+    "description": "National dish made from sago starch, eaten communally with sour‑spicy dips using bamboo forks.",
+    "image": "",
+    "coordinates": [4.5353, 114.7277]
+  },
+  {
+    "place": "Papua (shared), Borneo",
+    "dish": "Cencalok Fried Chicken",
+    "description": "Deep‑fried chicken marinated with fermented shrimp paste (cencalok), crispy and savory.",
+    "image": "",
+    "coordinates": [4.2105, 113.1689]
+  },
+  {
+    "place": "Kabul, Kabul Province",
+    "dish": "Kabuli Pulao",
+    "description": "Afghanistan’s national dish: fragrant basmati rice steamed with tender lamb, caramelized carrots, raisins, pistachios and almonds.",
+    "image": "",
+    "coordinates": [34.5281, 69.1723]
+  },
+  {
+    "place": "Kabul, Kabul Province",
+    "dish": "Mantu",
+    "description": "Steamed dumplings filled with minced lamb/onion, topped with tangy tomato‑yogurt sauce and dried mint.",
+    "image": "",
+    "coordinates": [34.5281, 69.1723]
+  },
+  {
+    "place": "Kabul, Kabul Province",
+    "dish": "Aushak",
+    "description": "Leek‑filled dumplings served in garlic‑yogurt sauce and tomato‑meat ragu—a festive staple.",
+    "image": "",
+    "coordinates": [34.5281, 69.1723]
+  },
+  {
+    "place": "Kabul, Kabul Province",
+    "dish": "Bolani",
+    "description": "Pan‑fried stuffed flatbread with fillings like potato, pumpkin or chives—served with yogurt dip.",
+    "image": "",
+    "coordinates": [34.5281, 69.1723]
+  },
+  {
+    "place": "Herat, Herat Province",
+    "dish": "Bamia",
+    "description": "Okra and lamb stew cooked in tomato broth—slow‑simmered and richly flavored.",
+    "image": "",
+    "coordinates": [34.3482, 62.1997]
+  },
+  {
+    "place": "Kandahar, Kandahar Province",
+    "dish": "Chapli Kebab",
+    "description": "Flat, spiced minced‑meat patties made with herbs, tomatoes and chilies—crispy and aromatic.",
+    "image": "",
+    "coordinates": [31.6289, 65.7372]
+  },
+  {
+    "place": "Herat, Herat Province",
+    "dish": "Qorma‑e Sabzi",
+    "description": "Spinach and herb stew with lamb, dill and fenugreek—herbaceous and warming.",
+    "image": "",
+    "coordinates": [34.3482, 62.1997]
+  },
+  {
+    "place": "Mazar-e-Sharif, Balkh Province",
+    "dish": "Shorwa",
+    "description": "Hearty meat‑and‑vegetable soup with lamb, potatoes and carrots—comfort food across Afghanistan.",
+    "image": "",
+    "coordinates": [36.7090, 67.1109]
+  },
+  {
+    "place": "Anywhere, Afghanistan",
+    "dish": "Sheer Berenj",
+    "description": "Creamy rice pudding flavored with rosewater, cardamom and almonds—served warm or chilled.",
+    "image": "",
+    "coordinates": [34.5553, 69.2075]
+  },
+  {
+    "place": "Any Province, Afghanistan",
+    "dish": "Kadu Bouranee",
+    "description": "Fried pumpkin topped with garlic‑yogurt sauce and dried mint—a sweet‑savory side.",
+    "image": "",
+    "coordinates": [34.5553, 69.2075]
+  },
+   {
+    "place": "Jeddah, Makkah Province, Saudi Arabia",
+    "dish": "Saleeg",
+    "description": "Creamy, risotto‑like white rice cooked with chicken broth and milk, often garnished with roasted chicken—Hejazi comfort food.",
+    "image": "",
+    "coordinates": [21.5433, 39.1728]
+  },
+  {
+    "place": "Riyadh, Riyadh Province, Saudi Arabia",
+    "dish": "Al‑Margaouq",
+    "description": "A hearty stew of meat, vegetables and hand‑rolled wheat dough pieces simmered together—a traditional Najd comfort dish.",
+    "image": "",
+    "coordinates": [24.7136, 46.6753]
+  },
+  {
+    "place": "Najran, Najran Province, Saudi Arabia",
+    "dish": "Al‑Ruqsh",
+    "description": "Layered flatbread doused in meaty broth with lamb—a communal dish distinctive to the Najran region.",
+    "image": "",
+    "coordinates": [17.4930, 44.1277]
+  },
+  {
+    "place": "Qatif, Eastern Province, Saudi Arabia",
+    "dish": "Mahmous",
+    "description": "Onion‑caramelized black rice, traditionally prepared during Ashura—a symbolic and solemn dish.",
+    "image": "",
+    "coordinates": [26.5564, 50.0068]
+  },
+  {
+    "place": "Asir, Southern Saudi Arabia",
+    "dish": "Jalamah",
+    "description": "Tender lamb stew slow‑cooked with aromatic spices from Asir—served on celebratory occasions like Eid.",
+    "image": "",
+    "coordinates": [18.2163, 42.5053]
+  },
+  {
+    "place": "Dammam, Eastern Province, Saudi Arabia",
+    "dish": "Hassawi Rice",
+    "description": "Red‑tinged spiced rice from al‑Ahsa region, served with meat or fish—rich, earthy flavors.",
+    "image": "",
+    "coordinates": [26.3927, 49.9777]
+  },
+  {
+    "place": "Adana, Turkey",
+    "dish": "Adana Kebab",
+    "description": "Hand‑minced spicy lamb and tail‑fat kebab, grilled on skewers—served with grilled tomatoes and parsley onion salad.",
+    "image": "",
+    "coordinates": [37.0017, 35.3289]
+  },
+  {
+    "place": "Istanbul, Turkey",
+    "dish": "Lahmacun",
+    "description": "Ultra-thin flatbread topped with minced lamb or beef, herbs and spices—often called 'Turkish pizza'.",
+    "image": "",
+    "coordinates": [41.0082, 28.9784]
+  },
+  {
+    "place": "Gaziantep, Turkey",
+    "dish": "Baklava",
+    "description": "Layered filo pastry filled with chopped pistachios and sweetened with syrup—a Gaziantep specialty.",
+    "image": "",
+    "coordinates": [37.0662, 37.3833]
+  },
+  {
+    "place": "Konya, Turkey",
+    "dish": "Etli Ekmek",
+    "description": "Thin, long flatbread topped with seasoned ground meat—Konya’s traditional bread‑pizza.",
+    "image": "",
+    "coordinates": [37.8746, 32.4932]
+  },
+  {
+    "place": "Kayseri, Turkey",
+    "dish": "Mantı",
+    "description": "Tiny dumplings filled with spiced meat typically served with garlic‑yogurt and chili butter—Turkish comfort food.",
+    "image": "",
+    "coordinates": [38.7225, 35.4870]
+  },
+  {
+    "place": "Tehran, Iran",
+    "dish": "Ghormeh Sabzi",
+    "description": "Iran’s national herb stew—made with sauteed parsley, cilantro, leeks, fenugreek, kidney beans, dried lime and lamb, served with saffron rice.",
+    "image": "",
+    "coordinates": [35.6892, 51.3890]
+  },
+  {
+    "place": "Isfahan, Iran",
+    "dish": "Fesenjān",
+    "description": "Rich pomegranate-walnut stew with duck or chicken—sweet, sour and deeply aromatic, often served at festive feasts.",
+    "image": "",
+    "coordinates": [32.6546, 51.6680]
+  },
+  {
+    "place": "Shiraz, Iran",
+    "dish": "Sabzi Polo ba Mahi",
+    "description": "Herb rice (dill, parsley, cilantro, fenugreek) served with fried fish—traditional New Year’s (Nowruz) brunch.",
+    "image": "",
+    "coordinates": [29.5918, 52.5836]
+  },
+  {
+    "place": "Mashhad, Iran",
+    "dish": "Shorwa",
+    "description": "Hearty lamb-and-vegetable soup with potatoes and carrots—comfort food across Iran, especially in the northeast.",
+    "image": "",
+    "coordinates": [36.2605, 59.6168]
+  },
+  {
+    "place": "Muscat, Oman",
+    "dish": "Kabsa",
+    "description": "Fragrant rice cooked with chicken or lamb and spices like cardamom, saffron, cinnamon & nutmeg—Oman’s national rice dish.",
+    "image": "",
+    "coordinates": [23.5880, 58.3829]
+  },
+  {
+    "place": "Nizwa, Oman",
+    "dish": "Shuwa",
+    "description": "Slow-cooked marinated lamb wrapped in banana leaf or clay, buried in an earth oven overnight—served at festivals.",
+    "image": "",
+    "coordinates": [22.9333, 57.5333]
+  },
+  {
+    "place": "Salalah, Oman",
+    "dish": "Harees",
+    "description": "Wheat cooked with chicken or lamb into a smooth porridge-like consistency—comfort food particularly during Ramadan.",
+    "image": "",
+    "coordinates": [17.0194, 54.0891]
+  },
+  {
+    "place": "Sur, Oman",
+    "dish": "Khabees",
+    "description": "Sweet saffron-and-cardamom-flavored flour pudding, often eaten hot for breakfast or during Eid.",
+    "image": "",
+    "coordinates": [22.5667, 59.5286]
+  }
+
+
+
+]
+
+

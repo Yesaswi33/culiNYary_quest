@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block start %}
+<style>
+  body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f2f5;
+  }
+
+  .menu-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(to bottom, #ffffff, #f2f6fc);
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e3d59;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .price-text {
+    font-size: 1.1rem;
+    color: #28a745;
+    font-weight: 600;
+  }
+
+  .no-dishes {
+    font-size: 1.3rem;
+    color: #b02a37;
+    margin-top: 40px;
+  }
+</style>
+
+<div class="container mt-5 pt-4">
+  <h2 class="text-center mb-5 menu-title">Our Special Menu</h2>
+
+  <div class="row">
+    {% for dish in dishes %}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+
+          {% if dish.receipe_image %}
+            <img src="{{ dish.receipe_image.url }}" class="card-img-top" alt="{{ dish.receipe_name }}">
+          {% else %}
+            <img src="{% static 'default_food.jpg' %}" class="card-img-top" alt="No image">
+          {% endif %}
+
+          <div class="card-body">
+            <h5 class="card-title">{{ dish.receipe_name }}</h5>
+            <p class="card-text">{{ dish.receipe_description|truncatechars:100 }}</p>
+            {% if dish.receipe_price %}
+              <p class="price-text">₹ {{ dish.receipe_price }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      
+    {% empty %}
+      <p class="text-center no-dishes">No dishes available in the menu yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
